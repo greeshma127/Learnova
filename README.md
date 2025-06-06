@@ -1,1 +1,1 @@
-# Learnova
+# Learnova - E-learning Platform
