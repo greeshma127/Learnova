@@ -63,7 +63,7 @@ function WelcomeSection() {
             With the help of E-Learning, create your own path and drive on your
             skills on your own to achieve what you seek.
           </p>
-          <button>View All Courses</button>
+          <button><a href="/courses" className="btn">View All Courses</a></button>
         </div>
         <div className="photo">
           <img

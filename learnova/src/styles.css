@@ -106,6 +106,10 @@ nav button:hover{
     cursor: pointer;
 }
 
+.text button a:hover{
+  color: #10316B;
+}
+
 .text h1{
     font-family: "Poppins", sans-serif;
     font-size: 40px;
