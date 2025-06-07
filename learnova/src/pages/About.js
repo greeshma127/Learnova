@@ -21,7 +21,7 @@ function About() {
         </div>
         <div className="photo">
           <img
-            src="./vecteezy_studying-book-illustration_18246021.png"
+            src="./about.png"
             alt="Creative Learning Illustration"
           />
         </div>
@@ -85,27 +85,27 @@ function About() {
         </p>
         <div className="teachers">
           <div className="t1">
-            <img src="./vecteezy_ai-generated-portrait-of-professional-teacher-on-transparent_39612043.png" alt="Aden Smith" />
+            <img src="./hod.png" alt="Aden Smith" />
             <h3>Aden Smith</h3>
             <p>Head of Department</p>
           </div>
           <div className="t1">
-            <img src="./vecteezy_ai-generated-portrait-of-professional-teacher-on-transparent_39612040.png" alt="Maggie Lee" />
+            <img src="./prof(1).png" alt="Maggie Lee" />
             <h3>Maggie Lee</h3>
             <p>Professor</p>
           </div>
           <div className="t1">
-            <img src="./vecteezy_confident-teacher-in-formal-attire-smiling-brightly_48036236.png" alt="David Fierro" />
+            <img src="./ap.png" alt="David Fierro" />
             <h3>David Fierro</h3>
             <p>Assistant Professor</p>
           </div>
           <div className="t1">
-            <img src="./vecteezy_ai-generated-portrait-of-professional-doctor-on-transparent_39612044.png" alt="Michael Adam" />
+            <img src="./prof(2).png" alt="Michael Adam" />
             <h3>Michael Adam</h3>
             <p>Professor</p>
           </div>
           <div className="t1">
-            <img src="./vecteezy_male-teacher-smile-at-you_43102188.png" alt="Kylian Chen" />
+            <img src="./prof(3).png" alt="Kylian Chen" />
             <h3>Kylian Chen</h3>
             <p>Professor</p>
           </div>

@@ -9,6 +9,7 @@ import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Profile from "./pages/Profile";
+import CourseDetails from "./components/CourseDetails";
 import "./styles.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<WelcomeSection />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/course/:id" element={<CourseDetails />} />
         <Route path="/prices" element={<Prices/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/about" element={<About/>} />
