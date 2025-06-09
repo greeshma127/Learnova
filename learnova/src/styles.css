@@ -34,7 +34,7 @@ ul {
     flex-direction: row;
     padding: 0;
     background-color: #10316B;
-    height: 93vh;
+    height: 40vh;
 }
 
 .photo img{
@@ -49,9 +49,11 @@ ul {
 }
 
 .text{
-    margin: 160px 100px;
-    width: 600px;
     color: white;
+    text-align: left;
+  align-items: flex-start;
+  width: 30%;
+  padding-left: 0px; /* Optional: slight padding to avoid touching screen edge */
 }
 
 .photo{
@@ -114,8 +116,11 @@ nav button:hover{
 
 .text h1{
     font-family: "Poppins", sans-serif;
-    font-size: 40px;
+  font-size: 20px;
+  padding: 0;
+  margin-bottom: 10px;
 }
+
 
 .text p{
     font-family: "Zain", sans-serif;
@@ -729,28 +734,30 @@ textarea {
     font-size: 15px;
 }
 
-html, body {
-  overflow-x: hidden;
-  max-width: 100vw;
-}
-
 @media (max-width: 480px) {
-  body{
-    width: 100%;
-  }
-
-  .photo img{
-    display: none;
+  .photo {
+    display: none !important;
+    margin: 0;
+    padding: 0;
   }
 
   .text h1 {
-    margin: 0;
-    padding-right: 200px;
+    margin-top: 100px;
+    text-align: center;
+    width: 300px;
+    margin-left: -170px;
     font-size: 20px;
   }
 
   .text p {
+    display: none;
     font-size: 14px;
+  }
+
+  .text {
+    width: 200px;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 
   .price {
@@ -765,6 +772,11 @@ html, body {
   .container {
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px;
+  }
+
+  .text button{
+    margin-left: -120px;
   }
 
   .prices{
